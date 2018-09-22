@@ -1,7 +1,7 @@
 # weeb
 weeb is a fast, zero-dependency weeb.sh wrapper that stays faithful to the official docs.
 
-### how to use
+## how to use
 
 ```javascript
 const weeb = require('weeb');
@@ -12,20 +12,20 @@ weeb.tophRandom('awoo', {'nsfw': 'false'}).then(res => {
 });
 ```
 
-### methods
+## methods
 
-**tophRandom(endpoint, options)**
+### tophRandom(endpoint, options)
 `/images/random`
 Returns: Image<Object>
 
-**tophTypes(options)**
+### tophTypes(options)
 `/images/types`
 Returns: <Object>
 
-**tophTags(options)**
+### tophTags(options)
 `/images/tags`
 Returns: <Object>
 
-**tophInfo(imageId)**
+### tophInfo(imageId)
 `/info/:image_id`
 Returns: Image<Object>
