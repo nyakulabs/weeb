@@ -16,16 +16,16 @@ weeb.tophRandom('awoo', {'nsfw': 'false'}).then(res => {
 
 ### tophRandom(endpoint, options)
 `/images/random`
-Returns: Image<Object>
+Returns: Image\<Object>
 
 ### tophTypes(options)
 `/images/types`
-Returns: <Object>
+Returns: \<Object>
 
 ### tophTags(options)
 `/images/tags`
-Returns: <Object>
+Returns: \<Object>
 
 ### tophInfo(imageId)
 `/info/:image_id`
-Returns: Image<Object>
+Returns: Image\<Object>
